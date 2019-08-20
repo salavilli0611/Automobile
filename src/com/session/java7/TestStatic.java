@@ -6,7 +6,7 @@ public class TestStatic {
 	String lastName;
 	static String company = "TCS";
 	
-	void changeCompany()
+	static void changeCompany()
 	{
 		company = "Google";
 	}
@@ -29,11 +29,11 @@ public class TestStatic {
 		TestStatic test2 = new TestStatic("Anil", "Alavilli");
 		TestStatic test3 = new TestStatic("Ayush", "Alavilli");
 		
-		test2.changeCompany();
+		TestStatic.changeCompany();
 		
 		test2.publishDetails();
 		test3.publishDetails();
-		
+		test1.publishDetails();
 		
 		
 	}
