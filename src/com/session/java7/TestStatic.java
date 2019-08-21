@@ -23,6 +23,8 @@ public class TestStatic {
 	 
 	public static void main(String sunil[])
 	{
+		System.out.println("Welcome to Java 7 Session");
+		
 		TestStatic test1 = new TestStatic("Sunil", "Alavilli");
 		test1.publishDetails();
 		
